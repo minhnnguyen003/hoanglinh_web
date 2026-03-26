@@ -63,7 +63,7 @@ useHead({
       
       <div class="article-meta-header">
         <div class="breadcrumb">
-          <NuxtLink to="/home">Trang chủ</NuxtLink>
+          <NuxtLink to="/">Trang chủ</NuxtLink>
           <span class="separator">/</span>
           <NuxtLink to="/news/news">Tin tức</NuxtLink>
         </div>
