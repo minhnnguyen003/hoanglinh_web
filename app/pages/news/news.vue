@@ -61,7 +61,7 @@ const newsList = [
             
             <div class="card-body">
               <h3 class="news-title">
-                <NuxtLink to="#">{{ item.title }}</NuxtLink>
+                <NuxtLink to="`/news/${item.id}`">{{ item.title }}</NuxtLink>
               </h3>
               <p class="news-desc">
                 {{ item.excerpt }}
