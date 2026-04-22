@@ -8,7 +8,7 @@ useHead({
   <div class="about-page">
     
     <div class="hero-banner">
-      <img src="https://images.unsplash.com/photo-1565514020176-db7621c1f727?q=80&w=2000" alt="Nhà máy Hoàng Linh" />
+      <img src="https://www.worldanimalprotection.org/cdn-cgi/image/width=2048,format=auto/siteassets/images/article/factory_farmed_chickens.jpg" alt="Nhà máy Hoàng Linh" />
       <div class="hero-overlay">
         <h1>Về công ty</h1>
       </div>
@@ -82,7 +82,7 @@ useHead({
           </div>
 
           <div class="history-img-wrapper">
-            <img src="https://images.unsplash.com/photo-1484557985045-6f5c5e2a10f5?q=80&w=1000" alt="Đàn cừu" />
+            <img src="https://www.worldanimalprotection.org/cdn-cgi/image/width=2048,format=auto/siteassets/images/article/factory_farmed_chickens.jpg" alt="Đàn cừu" />
           </div>
         </div>
       </section>
