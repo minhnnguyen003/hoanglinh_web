@@ -1,9 +1,13 @@
 <script setup lang="ts">
-const products = [
-  { name: 'Bã bia', img: 'https://images.unsplash.com/photo-1626127838202-6e273f089856' },
-  { name: 'Bã sắn', img: 'https://images.unsplash.com/photo-1615485925694-a03126938a95' },
-  { name: 'Khô đậu tương', img: 'https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b' },
-  { name: 'Bột cá', img: 'https://images.unsplash.com/photo-1534341777073-10d656024971' },
+const products =[
+  { name: 'Bột thịt xương', slug: 'bot-thit-xuong', image: 'https://i.imgur.com/3wqLj1V.jpeg' },
+  { name: 'Khô đậu tương', slug: 'kho-dau-tuong', image: 'https://hoanduong.com/Upload/Photos/products/nguyen-lieu/kho-dau-tuong.jpg' },
+  { name: 'Bột cá', slug: 'bot-ca', image: 'https://plus.unsplash.com/premium_photo-1675844477864-469d7b433436?q=80&w=500' },
+  { name: 'Ngô hạt', slug: 'ngo-hat', image: 'https://images.unsplash.com/photo-1551754655-cd27e38d2076?q=80&w=500' },
+  { name: 'Bã sắn', slug: 'ba-san', image: 'https://images.unsplash.com/photo-1615485500704-8e99099928b3?q=80&w=500' },
+  { name: 'Lúa mì', slug: 'lua-mi', image: 'https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?q=80&w=500' },
+  { name: 'Mỡ cá', slug: 'mo-ca', image: 'https://images.unsplash.com/photo-1615141982880-131f47671954?q=80&w=500' },
+  { name: 'Cám mì', slug: 'cam-mi', image: 'https://images.unsplash.com/photo-1610348725531-843dff563e2c?q=80&w=500' },
 ]
 </script>
 

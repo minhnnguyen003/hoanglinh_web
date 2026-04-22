@@ -5,8 +5,8 @@ useHead({
 
 // Dữ liệu sản phẩm có thêm trường 'slug' để làm đường dẫn
 const products = [
-  { name: 'Bã bia', slug: 'ba-bia', image: 'https://images.unsplash.com/photo-1580910051074-3eb6948d3ea4?q=80&w=500' },
-  { name: 'Khô đậu tương', slug: 'kho-dau-tuong', image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=500' },
+  { name: 'Bột thịt xương', slug: 'bot-thit-xuong', image: 'https://i.imgur.com/3wqLj1V.jpeg' },
+  { name: 'Khô đậu tương', slug: 'kho-dau-tuong', image: 'https://hoanduong.com/Upload/Photos/products/nguyen-lieu/kho-dau-tuong.jpg' },
   { name: 'Bột cá', slug: 'bot-ca', image: 'https://plus.unsplash.com/premium_photo-1675844477864-469d7b433436?q=80&w=500' },
   { name: 'Ngô hạt', slug: 'ngo-hat', image: 'https://images.unsplash.com/photo-1551754655-cd27e38d2076?q=80&w=500' },
   { name: 'Bã sắn', slug: 'ba-san', image: 'https://images.unsplash.com/photo-1615485500704-8e99099928b3?q=80&w=500' },
@@ -23,7 +23,7 @@ const products = [
       <section class="page-header">
         <h1 class="main-title">Sản phẩm</h1>
         <p class="description">
-          Proin vitae ligula rhoncus, aliquet metus sed, accumsan mi. Vestibulum imperdiet porttitor bibendum.
+          Chúng tôi cung cấp đa dạng nguyên liệu thức ăn chăn nuôi chất lượng cao, nguồn cung ổn định, đáp ứng nhu cầu sản xuất quy mô lớn của các nhà máy tại miền Bắc.
         </p>
       </section>
 

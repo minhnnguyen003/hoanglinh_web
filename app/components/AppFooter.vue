@@ -11,34 +11,25 @@ const socialLinks = [
   { icon: 'i-simple-icons-facebook', url: '#' },
   { icon: 'i-simple-icons-youtube', url: '#' },
   { icon: 'i-simple-icons-tiktok', url: '#' },
-  { icon: 'i-heroicons-chat-bubble-left-ellipsis-solid', url: '#' } 
+  { icon: 'i-heroicons-chat-bubble-left-ellipsis-solid', url: '#' }
 ]
 </script>
 
 <template>
   <footer class="footer-wrapper">
     <div class="footer-container">
-      
+
       <div class="footer-grid">
-        
+
         <div class="col-left">
           <nav class="footer-nav">
-            <NuxtLink 
-              v-for="link in footerLinks" 
-              :key="link.to" 
-              :to="link.to"
-            >
+            <NuxtLink v-for="link in footerLinks" :key="link.to" :to="link.to">
               {{ link.label }}
             </NuxtLink>
           </nav>
 
           <div class="social-links">
-            <a 
-              v-for="(social, index) in socialLinks" 
-              :key="index"
-              :href="social.url"
-              class="social-btn"
-            >
+            <a v-for="(social, index) in socialLinks" :key="index" :href="social.url" class="social-btn">
               <UIcon :name="social.icon" class="w-5 h-5" />
             </a>
           </div>
@@ -52,24 +43,29 @@ const socialLinks = [
           <div class="contact-group">
             <div class="contact-item">
               <span class="label">Hotline</span>
-              <p class="value">0123 456 789</p>
+              <p class="value">089 984 6338</p>
+            </div>
+
+            <div class="contact-item">
+              <span class="label">Địa chỉ đăng kí kinh doanh</span>
+              <p class="value">Sao biển 19-08 VHOCP, Gia Lâm, Hà Nội</p>
             </div>
 
             <div class="contact-item">
               <span class="label">Địa chỉ</span>
-              <p class="value">Số XXX - Đường XXXX - Quận XXXXX - Thành Phố XXXXX</p>
+              <p class="value">Vịnh thiên đường 1-99 VHOCP3 Nghĩa Trụ, Văn Giang, Hưng Yên</p>
             </div>
 
             <div class="contact-item">
               <span class="label">E-mail</span>
-              <a href="mailto:hoanglinh@hoanglinh.com.vn" class="value link">
-                hoanglinh@hoanglinh.com.vn
+              <a href="mailto:info@hoanglinhdvkdns.com" class="value link">
+                info@hoanglinhdvkdns.com
               </a>
             </div>
           </div>
-          
+
           <div class="copyright">
-             ©2025 Nông Sản Hoàng Linh. Tất cả các quyền được bảo hộ.
+            ©2026 Công ty TNHH Dịch vụ Thương mại Nông sản Hoàng Linh. Tất cả các quyền được bảo hộ.
           </div>
         </div>
 
@@ -79,9 +75,9 @@ const socialLinks = [
           </div>
 
           <div class="biz-info">
-            <p>Mã số doanh nghiệp: 3600224423</p>
-            <p>Cấp lần đầu: XX/XX/XXXX</p>
-            <p>Nơi cấp: Sở Tài Chính Tỉnh XX</p>
+            <p>Mã số doanh nghiệp: 2600976679</p>
+            <p>Cấp lần đầu: 22/02/2017</p>
+            <p>Nơi cấp: Phòng Đăng ký kinh doanh thuộc Sở Kế hoạch và Đầu tư Hà Nội</p>
           </div>
 
           <div class="policy-link-wrapper">
@@ -118,9 +114,11 @@ const socialLinks = [
 /* --- GRID SYSTEM (QUAN TRỌNG: Chia 3 cột) --- */
 .footer-grid {
   display: grid;
-  grid-template-columns: 1fr 1.5fr 1fr; /* Cột giữa rộng hơn chút */
+  grid-template-columns: 1fr 1.5fr 1fr;
+  /* Cột giữa rộng hơn chút */
   gap: 2rem;
-  align-items: stretch; /* Để 3 cột cao bằng nhau */
+  align-items: stretch;
+  /* Để 3 cột cao bằng nhau */
 }
 
 /* Responsive: Mobile về 1 cột */
@@ -135,7 +133,8 @@ const socialLinks = [
 .col-left {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Đẩy social xuống đáy */
+  justify-content: space-between;
+  /* Đẩy social xuống đáy */
   height: 100%;
 }
 
@@ -146,14 +145,16 @@ const socialLinks = [
 }
 
 .footer-nav a {
-  color: #2c4a9e; /* Xanh Hoàng Linh */
+  color: #2c4a9e;
+  /* Xanh Hoàng Linh */
   font-weight: 700;
   text-decoration: none;
   font-size: 0.95rem;
 }
 
 .social-links {
-  margin-top: auto; /* Kỹ thuật đẩy xuống đáy */
+  margin-top: auto;
+  /* Kỹ thuật đẩy xuống đáy */
   padding-top: 2rem;
   display: flex;
   gap: 10px;
@@ -170,6 +171,7 @@ const socialLinks = [
   color: white;
   transition: 0.3s;
 }
+
 .social-btn:hover {
   transform: translateY(-3px);
   background-color: #1a3b80;
@@ -214,7 +216,8 @@ const socialLinks = [
 }
 
 .copyright {
-  margin-top: auto; /* Đẩy xuống đáy */
+  margin-top: auto;
+  /* Đẩy xuống đáy */
   padding-top: 2rem;
   font-size: 0.85rem;
   color: #6b7280;
@@ -224,7 +227,8 @@ const socialLinks = [
 .col-right {
   display: flex;
   flex-direction: column;
-  align-items: flex-end; /* Căn phải toàn bộ */
+  align-items: flex-end;
+  /* Căn phải toàn bộ */
   text-align: right;
   height: 100%;
 }
@@ -242,7 +246,8 @@ const socialLinks = [
 }
 
 .logo-wrapper img {
-  height: 60px; /* Chiều cao logo */
+  height: 60px;
+  /* Chiều cao logo */
   width: auto;
   object-fit: contain;
 }
@@ -254,7 +259,8 @@ const socialLinks = [
 }
 
 .policy-link-wrapper {
-  margin-top: auto; /* Đẩy xuống đáy */
+  margin-top: auto;
+  /* Đẩy xuống đáy */
   padding-top: 2rem;
 }
 
