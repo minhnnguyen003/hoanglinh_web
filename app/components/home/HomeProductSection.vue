@@ -4,9 +4,9 @@ const products =[
   { name: 'Khô đậu tương', slug: 'kho-dau-tuong', image: 'https://hoanduong.com/Upload/Photos/products/nguyen-lieu/kho-dau-tuong.jpg' },
   { name: 'Bột cá', slug: 'bot-ca', image: 'https://vasep.com.vn/DATA/IMAGES/2024/02/18/20240218112218930gia-bot-ca-cao-keo-dai-truoc-tet-nguyen-dan-1600-1.jpeg' },
   { name: 'Ngô hạt', slug: 'ngo-hat', image: 'https://images.unsplash.com/photo-1551754655-cd27e38d2076?q=80&w=500' },
-  { name: 'Bã sắn', slug: 'ba-san', image: 'https://images.unsplash.com/photo-1615485500704-8e99099928b3?q=80&w=500' },
+  { name: 'Bã sắn', slug: 'ba-san', image: 'https://biogency.com.vn/wp-content/uploads/2023/10/01-xu-ly-ba-san.jpg' },
   { name: 'Lúa mì', slug: 'lua-mi', image: 'https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?q=80&w=500' },
-  { name: 'Mỡ cá', slug: 'mo-ca', image: 'https://images.unsplash.com/photo-1615141982880-131f47671954?q=80&w=500' },
+  { name: 'Mỡ cá', slug: 'mo-ca', image: 'https://www.cakhotranluan.com/images/0-0-moca2.jpg' },
   { name: 'Cám mì', slug: 'cam-mi', image: 'https://images.unsplash.com/photo-1610348725531-843dff563e2c?q=80&w=500' },
 ]
 </script>
