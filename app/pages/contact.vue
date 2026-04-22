@@ -14,11 +14,11 @@ const handleSubmit = () => {
     <div class="container">
       
       <section class="address-section">
-        <h1 class="page-title">Địa chỉ công ty</h1>
+        <h1 class="page-title">Liên hệ</h1>
         
-        <p class="page-desc">
+        <!-- <p class="page-desc">
           Etiam leo magna, egestas nec commodo nec, hendrerit ultrices lectus. Nam et mauris ac dolor sollicitudin ultricies quis quis neque. Fusce justo risus, dapibus vulputate ligula eget, convallis aliquet nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </p>
+        </p> -->
 
         <h2 class="company-name">
           CÔNG TY TNHH DỊCH VỤ THƯƠNG MẠI NÔNG SẢN HOÀNG LINH

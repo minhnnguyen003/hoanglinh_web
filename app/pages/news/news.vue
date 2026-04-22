@@ -8,7 +8,7 @@ const newsList = [
     id: 1,
     title: 'PROIN VITAE LIGULA RHONCUS, ALIQUET METUS SED, ACCUMSAN MI.',
     excerpt: 'Vestibulum mollis, leo sed rutrum mattis, arcu mi vulputate nulla, et eleifend turpis tellus et elit.',
-    image: 'https://images.unsplash.com/photo-1484557985045-6f5c5e2a10f5?q=80&w=800' // Ảnh Cừu
+    image: 'https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?q=80&w=800' // Ảnh Cừu
   },
   {
     id: 2,
