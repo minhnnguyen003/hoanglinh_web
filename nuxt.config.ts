@@ -1,12 +1,16 @@
-// nuxt.config.ts
 export default defineNuxtConfig({
-  // ... other configs
-  
+  modules: ['@nuxtjs/sitemap', '@nuxtjs/robots'],
+
+  // domain chính
+  sitemap: {
+    siteUrl: 'https://hoanglinhdvkdns.com'
+  },
+
+  // giữ nguyên config của bạn
   vite: {
     css: {
       preprocessorOptions: {
         scss: {
-          // This line automatically imports your variables file into all SCSS files
           additionalData: '@use "@/assets/scss/variables.scss" as *;'
         }
       }
