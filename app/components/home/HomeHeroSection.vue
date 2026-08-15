@@ -13,8 +13,8 @@
       <div class="hero__content">
         <h1 class="hero__title">
           Công ty TNHH Dịch vụ <br />
-          thương mại nông sản <br />
-          <span class="highlight">Hoàng Linh</span>
+          thương mại <br />
+          <span class="highlight">DHA Feed</span>
         </h1>
         <p class="hero__desc">
           Phân phối nguyên liệu thức ăn chăn nuôi (bã bia, bã sắn, bột cá, khô đậu tương, ngô hạt, lúa mì, mỡ cá, cám mì...)
