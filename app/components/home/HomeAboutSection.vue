@@ -9,15 +9,15 @@
         <div class="about-content">
           <h2 class="section-title">Giới thiệu về công ty</h2>
           <div class="text-content">
-            <p>Công ty TNHH Dịch vụ Thương mại Nông sản Hoàng Linh được thành lập vào năm 2017,
+            <p>Công Ty TNHH Xuất Nhập Khẩu DHA Feed được thành lập vào năm 2017,
                bởi ông Nguyễn Tiến Đức và bà Đỗ Thị Thúy Hằng. Hiện nay, bà Đỗ Thị Thúy Hằng là 
                người đại diện pháp luật của công ty.</p>
-            <p>Hoàng Linh hoạt động trong lĩnh vực kinh doanh nguyên liệu thức ăn chăn nuôi, 
+            <p>DHA Feed hoạt động trong lĩnh vực kinh doanh nguyên liệu thức ăn chăn nuôi, 
               chuyên cung cấp nguồn nguyên liệu chất lượng cho các nhà máy sản xuất trên toàn khu vực miền Bắc Việt Nam.
               Với định hướng phát triển bền vững, công ty không ngừng mở rộng quy mô và nâng cao chất lượng dịch vụ nhằm 
               đáp ứng nhu cầu ngày càng cao của đối tác.</p>
           </div>
-          <NuxtLink to="/about" class="btn-main">Sản phẩm</NuxtLink>
+          <NuxtLink to="/about" class="btn-main">Xem thêm</NuxtLink>
         </div>
       </div>
     </div>
