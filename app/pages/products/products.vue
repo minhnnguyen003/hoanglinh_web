@@ -4,14 +4,14 @@ useHead({
 })
 
 // Dữ liệu sản phẩm có thêm trường 'slug' để làm đường dẫn
-const products =[
-  { name: 'Bột thịt xương', slug: 'bot-thit-xuong', image: 'https://i.imgur.com/3wqLj1V.jpeg' },
-  { name: 'Khô đậu tương', slug: 'kho-dau-tuong', image: 'https://hoanduong.com/Upload/Photos/products/nguyen-lieu/kho-dau-tuong.jpg' },
-  { name: 'Bột cá', slug: 'bot-ca', image: 'https://vasep.com.vn/DATA/IMAGES/2024/02/18/20240218112218930gia-bot-ca-cao-keo-dai-truoc-tet-nguyen-dan-1600-1.jpeg' },
-  { name: 'Ngô hạt', slug: 'ngo-hat', image: 'https://images.unsplash.com/photo-1551754655-cd27e38d2076?q=80&w=500' },
-  { name: 'Bã sắn', slug: 'ba-san', image: 'https://biogency.com.vn/wp-content/uploads/2023/10/01-xu-ly-ba-san.jpg' },
+const products = [
+  { name: 'Plasma', slug: 'plasma', image: '/images/plasma.jpg' },
+  { name: 'Bột gia cầm', slug: 'bot-gia-cam', image: '/images/bot-gia-cam.jpg' },
+  { name: 'Bột cá', slug: 'bot-ca', image: '/images/bot-ca.jpg' },
+  { name: 'Bột thịt xương', slug: 'bot-thit-xuong', image: '/images/bot-thit-xuong.jpg' },
+  { name: 'Bã sắn', slug: 'ba-san', image: 'https://images.unsplash.com/photo-1615485500704-8e99099928b3?q=80&w=500' },
   { name: 'Lúa mì', slug: 'lua-mi', image: 'https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?q=80&w=500' },
-  { name: 'Mỡ cá', slug: 'mo-ca', image: 'https://www.cakhotranluan.com/images/0-0-moca2.jpg' },
+  { name: 'Mỡ cá', slug: 'mo-ca', image: '/images/mo-ca.jpg' },
   { name: 'Cám mì', slug: 'cam-mi', image: 'https://images.unsplash.com/photo-1610348725531-843dff563e2c?q=80&w=500' },
 ]
 </script>
@@ -23,7 +23,7 @@ const products =[
       <section class="page-header">
         <h1 class="main-title">Sản phẩm</h1>
         <p class="description">
-          Chúng tôi cung cấp đa dạng nguyên liệu thức ăn chăn nuôi chất lượng cao, nguồn cung ổn định, đáp ứng nhu cầu sản xuất quy mô lớn của các nhà máy tại miền Bắc.
+          Proin vitae ligula rhoncus, aliquet metus sed, accumsan mi. Vestibulum imperdiet porttitor bibendum.
         </p>
       </section>
 
