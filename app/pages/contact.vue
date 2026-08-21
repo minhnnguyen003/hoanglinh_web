@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-  title: 'Liên hệ - Hoàng Linh Group',
+  title: 'Liên hệ - DHA Feed Group',
 })
 
 // Xử lý sự kiện gửi form (Giả lập)
@@ -21,13 +21,13 @@ const handleSubmit = () => {
         </p> -->
 
         <h2 class="company-name">
-          CÔNG TY TNHH DỊCH VỤ THƯƠNG MẠI NÔNG SẢN HOÀNG LINH
+          Công Ty TNHH Xuất Nhập Khẩu DHA Feed
         </h2>
 
         <div class="contact-info">
           <p>Trụ sở văn phòng: Vịnh thiên đường 1-99 VHOCP3 Nghĩa Trụ, Văn Giang, Hưng Yên</p>
           <p>Địa chỉ đăng kí kinh doanh: Sao biển 19-08 VHOCP, Gia Lâm, Hà Nội</p>
-          <p>Email: <a href="mailto:info@hoanglinhdvkdns.com">info@hoanglinhdvkdns.com</a></p>
+          <p>Email: <a href="mailto:info@dhafeed.vn">info@dhafeed.vn</a></p>
           <p>Số điện thoại: <span class="phone">089 984 6338</span></p>
         </div>
 
