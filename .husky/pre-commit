@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Bỏ comment khi dự án đã có bộ test và script `test`.
+# npm test
+npm run check:commit

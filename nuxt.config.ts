@@ -17,7 +17,7 @@ export default defineNuxtConfig({
       // hit a remote API with credentials
       ['https://api.example.com/pages/urls', { headers: { Authorization: 'Bearer <token>' } }]
     ]
-  }
+  },
 
 
   robots: {
