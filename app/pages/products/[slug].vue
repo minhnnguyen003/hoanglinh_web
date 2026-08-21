@@ -5,9 +5,9 @@ const slug = computed(() => route.params.slug as string)
 // Giả lập Database (Thực tế bạn sẽ gọi API ở đây)
 const productsDB = [
   {
-    slug: 'ba-bia',
-    name: 'Bã bia',
-    image: 'https://images.unsplash.com/photo-1580910051074-3eb6948d3ea4?q=80&w=800',
+    slug: 'plasma',
+    name: 'Plasma',
+    image: '/images/plasma.jpg',
     description: 'Sản phẩm phụ từ quá trình sản xuất bia, giàu protein và vitamin, rất tốt cho chăn nuôi bò sữa.',
     usage: 'Bã bia được sử dụng rộng rãi trong chăn nuôi gia súc, đặc biệt là bò sữa. Nó cung cấp nguồn protein chất lượng cao, giàu vitamin nhóm B và các chất dinh dưỡng cần thiết. Sản phẩm này giúp tăng năng suất sữa, cải thiện sức khỏe và hệ miễn dịch của gia súc.',
     specs: [
@@ -17,11 +17,11 @@ const productsDB = [
     ]
   },
   {
-    slug: 'kho-dau-tuong',
-    name: 'Khô đậu tương',
-    image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=800',
-    description: 'Khô đậu tương là sản phẩm phụ từ quả trình chế biến dầu đậu tương, có hàm lượng protein cao.',
-    usage: 'Khô đậu tương là nguồn thức ăn chăn nuôi có giá trị dinh dưỡng cao, cung cấp protein tảo tần và các amino axit cần thiết. Sản phẩm này hỗ trợ tăng trưởng, phát triển cơ bắp và nâng cao chất lượng sản phẩm từ gia súc.',
+    slug: 'bot-gia-cam',
+    name: 'Bột gia cầm',
+    image: '/images/bot-gia-cam.jpg',
+    description: 'Bột gia cầm là sản phẩm phụ từ quả trình chế biến dầu đậu tương, có hàm lượng protein cao.',
+    usage: 'Bột gia cầm là nguồn thức ăn chăn nuôi có giá trị dinh dưỡng cao, cung cấp protein tảo tần và các amino axit cần thiết. Sản phẩm này hỗ trợ tăng trưởng, phát triển cơ bắp và nâng cao chất lượng sản phẩm từ gia súc.',
     specs: [
       { label: 'Đạm thô', value: '45%' },
       { label: 'Chất béo thô', value: '8%' },
@@ -31,7 +31,7 @@ const productsDB = [
   {
     slug: 'bot-ca',
     name: 'Bột cá',
-    image: 'https://plus.unsplash.com/premium_photo-1675844477864-469d7b433436?q=80&w=800',
+    image: '/images/bot-ca.jpg',
     description: 'Bột cá được sản xuất từ cá và phụ phẩm cá, chứa đầy đủ amino axit và các chất vi lượng cần thiết.',
     usage: 'Bột cá là thức ăn chăn nuôi premium, cung cấp protein hoàn chỉnh với tất cả các amino axit thiết yếu. Nó giàu omega-3, calci, phospho và các chất vi lượng quan trọng, giúp tăng cường sức khỏe, nâng cao khả năng sinh sản và chất lượng sản phẩm cuối cùng.',
     specs: [
@@ -41,11 +41,11 @@ const productsDB = [
     ]
   },
   {
-    slug: 'ngo-hat',
-    name: 'Ngô hạt',
-    image: 'https://images.unsplash.com/photo-1551754655-cd27e38d2076?q=80&w=800',
-    description: 'Ngô hạt là ngũ cốc chính trong sản xuất thức ăn gia súc, cung cấp năng lượng và carbohydrate.',
-    usage: 'Ngô hạt là thức ăn năng lượng cao, cung cấp carbohydrate phục vụ cho các hoạt động sống và sinh sản của gia súc. Nó giàu tinh bột, chất béo và một số vitamin, giúp tăng cộng suất năng lượng, cải thiện tăng trưởng và năng suất sản xuất.',
+    slug: 'bot-thit-xuong',
+    name: 'Bột thịt xương',
+    image: '/images/bot-thit-xuong.jpg',
+    description: 'Bột thịt xương là sản phẩm phụ từ quá trình chế biến thịt và xương, giàu protein và khoáng chất.',
+    usage: 'Bột thịt xương là nguồn thức ăn chăn nuôi giàu protein và khoáng chất, đặc biệt là canxi và phốt pho. Sản phẩm này hỗ trợ phát triển cơ bắp, cải thiện sức khỏe xương và răng của gia súc.',
     specs: [
       { label: 'Năng lượng', value: '3600 kcal/kg' },
       { label: 'Protein thô', value: '8-10%' },
@@ -79,7 +79,7 @@ const productsDB = [
   {
     slug: 'mo-ca',
     name: 'Mỡ cá',
-    image: 'https://images.unsplash.com/photo-1615141982880-131f47671954?q=80&w=800',
+    image: '/images/mo-ca.jpg',
     description: 'Mỡ cá là nguồn chất béo giàu omega-3, hỗ trợ sức khỏe và chất lượng sản phẩm.',
     usage: 'Mỡ cá là chất béo có giá trị cao, giàu omega-3 và các acid béo không bão hòa, giúp cải thiện sức khỏe tim mạch và hệ thần kinh. Khi bổ sung vào khẩu phần ăn gia súc, nó giúp tăng cấp độ năng lượng, cải thiện chất lượng sữa và thịt, đồng thời hỗ trợ sinh sản.',
     specs: [
