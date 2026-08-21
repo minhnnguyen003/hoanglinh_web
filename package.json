@@ -16,7 +16,7 @@
     "@nuxtjs/robots": "^6.0.8",
     "@nuxtjs/sitemap": "^8.0.15",
     "better-sqlite3": "^12.6.2",
-    "nuxt": "^4.2.2"
+    "nuxt": "^4.5.2"
   },
   "devDependencies": {
     "husky": "^9.1.7",
