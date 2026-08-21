@@ -24,8 +24,8 @@ const navItems: NavItem[] = [
         
         <NuxtLink to="/" class="navbar__logo">
           <img 
-            src="/assets/images/logo.png" 
-            alt="Hoàng Linh Logo" 
+            src="/assets/images/logo DHA.png" 
+            alt="DHA Logo" 
           />
           </NuxtLink>
 
