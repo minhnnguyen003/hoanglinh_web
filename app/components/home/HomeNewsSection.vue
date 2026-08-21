@@ -1,8 +1,8 @@
 <script setup lang="ts">
 const news = [
-  { id: 1, title: 'Thị trường nông sản tuần qua', img: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab', summary: 'Giá ngô và khô đậu tương biến động mạnh...' },
+  { id: 1, title: 'Thị trường  tuần qua', img: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab', summary: 'Giá ngô và khô đậu tương biến động mạnh...' },
   { id: 2, title: 'Mở rộng kho bãi Hải Phòng', img: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7', summary: 'Nâng cao năng lực lưu trữ và vận chuyển...' },
-  { id: 3, title: 'Hội nghị khách hàng 2026', img: 'https://images.unsplash.com/photo-1517048676732-d65bc937f952', summary: 'Tri ân đối tác đã đồng hành cùng Hoàng Linh...' },
+  { id: 3, title: 'Hội nghị khách hàng 2026', img: 'https://images.unsplash.com/photo-1517048676732-d65bc937f952', summary: 'Tri ân đối tác đã đồng hành cùng DHA Feed...' },
 ]
 </script>
 
