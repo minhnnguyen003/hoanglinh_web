@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-  title: 'Về công ty - Hoàng Linh Group',
+  title: 'Về công ty - DHA Group',
 })
 </script>
 
@@ -30,7 +30,7 @@ useHead({
           <div class="value-col">
             <h3>Sứ mệnh</h3>
             <p>
-            Hoàng Linh cung cấp nguyên liệu chất lượng và ổn định cho ngành thức ăn chăn nuôi, 
+            DHA Group cung cấp nguyên liệu chất lượng và ổn định cho ngành thức ăn chăn nuôi, 
             lấy lợi ích khách hàng làm trung tâm; phát triển bằng sự chủ động – trách nhiệm – bản lĩnh.
 
             </p>
@@ -56,7 +56,7 @@ useHead({
           <div class="team-content">
             <h2>Đội ngũ nhân sự chuyên nghiệp</h2>
             <p>
-              Với đội ngũ nhân viên giàu kinh nghiệm và nhiệt huyết, Hoàng Linh luôn sẵn sàng hỗ trợ khách hàng mọi lúc mọi nơi.
+              Với đội ngũ nhân viên giàu kinh nghiệm và nhiệt huyết, DHA Group luôn sẵn sàng hỗ trợ khách hàng mọi lúc mọi nơi.
             </p>
           </div>
         </div>

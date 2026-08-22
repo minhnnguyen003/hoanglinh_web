@@ -52,7 +52,7 @@ const shareIcons = [
 ]
 
 useHead({
-  title: `${article.title.substring(0, 50)}... - Hoàng Linh Group`,
+  title: `${article.title.substring(0, 50)}... - DHA Group`,
 })
 </script>
 
