@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-  title: 'Sản phẩm - Hoàng Linh Group',
+  title: 'Sản phẩm - DHA Group',
 })
 
 // Dữ liệu sản phẩm có thêm trường 'slug' để làm đường dẫn
