@@ -75,7 +75,7 @@ const socialLinks = [
 
         <div class="col-right">
           <div class="logo-wrapper">
-            <img src="~/assets/images/logo.png" alt="DHA Logo" />
+            <img src="~/assets/images/logo DHA1.png" alt="DHA Logo" />
           </div>
 
           <div class="biz-info">
