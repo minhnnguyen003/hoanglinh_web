@@ -3,7 +3,7 @@ import { useHead } from 'nuxt/app';
 
 // SEO Meta tags
 useHead({
-  title: 'Trang chủ - Công ty TNHH Dịch vụ Thương mại Nông sản Hoàng Linh',
+  title: 'Trang chủ - Công ty TNHH Dịch vụ Thương mại Nông sản DHA Feed',
   meta: [
     { name: 'description', content: 'Chuyên phân phối nguyên liệu thức ăn chăn nuôi: Bã bia, bã sắn, bột cá...' }
   ]
