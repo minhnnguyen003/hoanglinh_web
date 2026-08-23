@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/sitemap', '@nuxtjs/robots', '@vercel/analytics'],
+  modules: ['@nuxtjs/sitemap', '@nuxtjs/robots', '@vercel/analytics', '@vercel/speed-insights'],
 
   // domain chính
   site: {
