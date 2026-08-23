@@ -1,75 +1,79 @@
-# Nuxt Content Starter
+# Hoang Linh Agricultural Services Website
 
-Look at the [Nuxt Content documentation](https://content.nuxt.com) to learn more.
+[Tiếng Việt](README.vi.md)
 
-## Setup
+A Nuxt website for Hoang Linh Agricultural Services. It presents the company, its animal-feed ingredients, news, and contact information.
 
-Make sure to install dependencies:
+## Technology
+
+- Nuxt 4 and Vue 3
+- Vite
+- Sass
+- Nuxt Sitemap and Robots modules
+
+## Requirements
+
+- Node.js `^20.19.0` or `>=22.12.0`
+- npm
+
+## Getting started
+
+Install the dependencies:
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+Start the development server at `http://localhost:3000`:
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+## Available scripts
 
-Build the application for production:
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the Nuxt development server. |
+| `npm run build` | Create a production build. |
+| `npm run preview` | Preview the production build locally. |
+| `npm run start` | Start the generated Nitro server. |
+| `npm run generate` | Generate a static version of the website. |
+| `npm run check:commit` | Run the required pre-commit validation. |
+
+## Quality checks
+
+The repository uses a Husky `pre-commit` hook. Every normal Git commit runs:
 
 ```bash
-# npm
+npm run check:commit
+```
+
+This command currently runs `npm run build`; a failed build cancels the commit. An automated `npm test` suite has not been configured yet.
+
+You can run the same check manually before committing:
+
+```bash
+npm run check:commit
+```
+
+## Project structure
+
+```text
+app/
+  assets/        # Images and Sass styles
+  components/    # Shared and homepage Vue components
+  layouts/       # Application layouts
+  pages/         # File-based routes
+public/          # Public static files
+.husky/          # Git hooks
+```
+
+## Production build
+
+Build and preview the application locally:
+
+```bash
 npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
 npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
