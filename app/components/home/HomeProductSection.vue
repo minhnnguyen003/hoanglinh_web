@@ -1,9 +1,9 @@
 <script setup lang="ts">
 const products =[
-  { name: 'Mỡ cá', img: '/images/mo-ca.jpg' },
-  { name: 'Plasma', img: '/images/plasma.jpg' },
-  { name: 'Bột gia cầm', img: '/images/bot-gia-cam.jpg' },
-  { name: 'Bột cá', img: '/images/bot-ca.jpg' },
+  { name: 'Mỡ cá', image: '/images/mo-ca.jpg' },
+  { name: 'Plasma', image: '/images/plasma.jpg' },
+  { name: 'Bột gia cầm', image: '/images/bot-gia-cam.jpg' },
+  { name: 'Bột cá', image: '/images/bot-ca.jpg' },
 ]
 </script>
 
